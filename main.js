@@ -1,15 +1,13 @@
 class BinaryUrlReader
 {
-	read(url, callback)
+	async read(url, callback)
 	{
-		fetch(url).then(r => {
-			let reader = new FileReader()
-			reader.addEventListener('load', function () {
-				callback(reader)
-			}, false)
-			reader.readAsDataURL(r.blob())
-		})
-		
+		let blob = await fetch(url).then(r => r.blob())
+		let reader = new FileReader()
+		reader.addEventListener('load', function () {
+			callback(reader)
+		}, false);
+		reader.readAsDataURL(blob)
 	}
 }
 
