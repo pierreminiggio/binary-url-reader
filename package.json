@@ -1,0 +1,16 @@
+{
+  "name": "binary-url-reader",
+  "version": "1.0.0",
+  "description": "Binary URL Reader",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierreminiggio/binary-url-reader.git"
+  },
+  "author": "Pierre MINIGGIO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pierreminiggio/binary-url-reader/issues"
+  },
+  "homepage": "https://github.com/pierreminiggio/binary-url-reader#readme"
+}
