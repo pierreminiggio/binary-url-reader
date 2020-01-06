@@ -1,5 +1,5 @@
 {
-  "name": "binary-url-reader",
+  "name": "@pierreminiggio/binary-url-reader",
   "version": "1.0.0",
   "description": "Binary URL Reader",
   "main": "main.js",
@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/pierreminiggio/binary-url-reader/issues"
   },
-  "homepage": "https://github.com/pierreminiggio/binary-url-reader#readme"
+  "homepage": "https://github.com/pierreminiggio/binary-url-reader#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
